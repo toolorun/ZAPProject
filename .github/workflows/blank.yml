@@ -28,6 +28,3 @@ uses: zaproxy/action-baseline@v0.14.0
 with:
 target: 'https://www.medium.com/'
 token: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
